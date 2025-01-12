@@ -41,7 +41,7 @@ mongoose.connect(CONNECTION_URL)
   .then(() => {
     console.log('Connected to MongoDB');
 
-    app.listen(PORT, () => console.log(`[ ready ] bill-deskv2 Email Connector service started... version 2.0.0 on port ${PORT}`));
+    app.listen(PORT, () => console.log(`[ ready ] service started... version 2.0.0 on port ${PORT}`));
   })
   .catch((error) => console.log('Error connecting to MongoDB:', error.message));
 
